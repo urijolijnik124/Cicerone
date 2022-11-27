@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.red {
+    width: 1366px;
+    background-color: red;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.green {
+    width: 1366px;
+    background-color: green;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    background-color: darkslategrey;
+    height: 40px;
+
+
+}
+.link {
+
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+.sp {
+    position: relative;
+    flex-direction: row;
+
+
+
+}
+.links {
+margin-left: 50px;
+    display: flex;
+
+    padding-top: 10px;
+
+}
+
+.about {
+    height: 100px;
+    width:200px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.title {
+    height: 100px;
+    width:1166px;
+    background-color: brown;
+    color: white;
+    position: absolute;
+    left:200px ;
+    bottom: 285px ;
+}
+
+@media (max-width: 400px) {
+    .title {
+        height: 100px;
+        width:400px;
+        background-color: brown;
+        color: white;
+        position: relative;
+
+        top: 0;
+        left: 1px;
+
+    }
+    .about{
+        width: 400px;
+        position: relative;
+
+    }
+.navbar{
+    height: 90px;
+    width: 400px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.red{
+    width: 400px ;
+}
+.green {
+    width: 400px ;
+
+}
+    .link {
+        display: flex;
+        justify-content: center;
+
+    }
+    body {
+        overflow-x: hidden;
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 768px)
+{
+    .title {
+        height: 100px;
+        width:548px;
+        background-color: brown;
+        color: white;
+         position: relative;
+        bottom:100px;
+        left: 219px;
+        text-align: center;
+
+    }
+    .txt{
+   position: relative;
+        top:50px;
+        font-size: 24px;
+    }
+    .about {
+        width: 220px;
+        text-align: center;
+
+    }
+    .txt2{
+        position: relative;
+        top:50px;
+        font-size: 24px;
+    }
+    .navbar{
+        width: 768px;
+    }
+    body {
+        overflow-x: hidden;
+        width: 100px;
+        margin: 0;
+        padding: 0;
+        height: 300px;
+
+    }
+    .green{
+        width: 768px;
+        font-size: 18px;
+    }
+    .red {
+        width: 768px;
+        font-size: 24px;
+    }
+    .links{
+        justify-content: center;
+        position: relative;
+        right: 30px;
+        font-size: 24px;
+    }
+
+
+}
+
